@@ -1,0 +1,4 @@
+complile rust to web assembly code
+web assembly can be executed in the browser
+it runs at native speed, or almost
+3d apps, cad apps, virtual reality , system applications, games

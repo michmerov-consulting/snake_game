@@ -1,9 +1,6 @@
 
-fn main(){
-    let mut message = "Hello World!";
-     
-}
-
-fn print_welcome () {
-    
+use snake_game::{learning_rust::*, outsider};
+fn main() {
+    let person = Person::new();
+    println!("{}", person.id);
 }
