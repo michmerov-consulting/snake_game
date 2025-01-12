@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server/index.js",
-  "build": "npm install --prefix www && tsc www/index.ts",
+  "build": "npm install --prefix www && tsc index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",

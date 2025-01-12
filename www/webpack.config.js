@@ -7,7 +7,7 @@ module.exports = {
     
     entry:"./bootstrap.js",
     output:{
-        path:path.resolve(__dirname, "public"),
+        path:path.resolve(__dirname, "./server"),
         filename:"bootstrap.js"
     },
     module: {
@@ -25,7 +25,8 @@ module.exports = {
     mode:"development",
     plugins:[new CopyWebPackPlugin({
         patterns:[
-            {from:"./index.html", to:"./"}
+            {from:"./index.html", to:"./"},
+            {from:"./public", to:"./"}
         ]
     })]
 }
