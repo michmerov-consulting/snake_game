@@ -3,7 +3,7 @@ import { wasm } from "webpack";
 import {rnd} from "./utils/rnd.js";
 init().then(wasm => {
     const CELL_SIZE = 20;
-    const WORLD_WIDTH = 4;
+    const WORLD_WIDTH = 16;
     const gamePoints  = <HTMLDivElement> document.getElementById("game-points");
 
     const gameControlBtn  = <HTMLButtonElement> document.getElementById("game-control-btn");
